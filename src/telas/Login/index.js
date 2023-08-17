@@ -3,7 +3,7 @@ import { Image, View } from 'react-native';
 import Botao from '../../componentes/Botao';
 import { EntradaTexto } from '../../componentes/EntradaTexto';
 import estilos from './estilos';
-import { logar } from '../../servicos/requisicoesFirebase';
+import { logar } from '../../servicos/auth';
 import { Alerta } from '../../componentes/Alerta';
 import { auth } from '../../config/firebase';
 import { alterarDados, verificaSeTemEntradaVazia } from '../../utils/comum';
